@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtelrat4k7cxl"]
+
+[ext_resource type="Script" path="res://Room.gd" id="1_orpdb"]
+
+[node name="Room" type="RigidBody2D"]
+mass = 100.0
+lock_rotation = true
+linear_damp = 1.0
+angular_damp = 1.0
+script = ExtResource("1_orpdb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
